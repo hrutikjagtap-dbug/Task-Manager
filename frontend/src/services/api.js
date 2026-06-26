@@ -1,4 +1,6 @@
-const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api/tasks`;
+// src/services/api.js
+
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api/tasks`;// Update with your actual server URL
 
 export const getTasks = () => 
   fetch(API_BASE_URL).then(res => res.json());
