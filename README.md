@@ -3,7 +3,6 @@
 A comprehensive Task Management system built using the MERN stack (MongoDB, Express.js, React, Node.js). This project is designed to help users efficiently organize, track, and manage their daily tasks with real-time updates and a clean, responsive user interface.
 
 ## 🚀 Features
-*   **User Authentication:** Secure signup and login functionality.
 *   **Task CRUD:** Create, Read, Update, and Delete tasks.
 *   **Status Tracking:** Ability to mark tasks as 'Completed' or 'Pending'.
 *   **Responsive UI:** Modern design optimized for desktop and mobile browsers.
@@ -13,7 +12,7 @@ A comprehensive Task Management system built using the MERN stack (MongoDB, Expr
 
 ### Frontend
 *   **React.js:** Building the dynamic user interface.
-*   **CSS3:** Styled for a modern, minimalist look.
+*   **CSS3/Tailwind :** Styled for a modern, minimalist look.
 
 ### Backend
 *   **Node.js & Express.js:** RESTful API architecture.
@@ -28,7 +27,7 @@ A comprehensive Task Management system built using the MERN stack (MongoDB, Expr
 
 
 
-   # Install root dependencies
+# Install root dependencies
 npm install
 
 # Navigate to frontend and install
