@@ -146,10 +146,6 @@ Frontend will run at: `http://localhost:3000`
 | POST | /api/tasks | Create a new task |
 | PUT | /api/tasks/:id | Update an existing task |
 | DELETE | /api/tasks/:id | Delete a task |
-| POST | /api/auth/register | Register a new user |
-| POST | /api/auth/login | Login a user |
-| POST | /api/auth/logout | Logout a user |
-| GET | /api/auth/me | Get current logged in user |
 
 ---
 
