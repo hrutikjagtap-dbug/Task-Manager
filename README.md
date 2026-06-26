@@ -22,7 +22,7 @@ A full-stack Task Manager web application built with React and Node.js. It allow
 - Loading and error states handled in the UI
 - Responsive layout for mobile and desktop
 - MongoDB for persistent data storage
-- User authentication with login and register (Gmail only)
+
 
 ---
 
@@ -189,18 +189,11 @@ Tests are written using **Jest** and cover:
 - **Passport.js** with local strategy was used for session-based authentication
 - **Tailwind CSS** was chosen for fast, responsive, and clean UI styling
 - **Component-based architecture** was followed with reusable components like `Badge`, `Modal`, and `TaskForm`
-- **Gmail-only registration** was enforced to keep the user base controlled
 - All API calls are centralised in `services/api.js` and state is managed via custom hooks in `hooks/useTasks.js`
 
 ---
 
-## Known Limitations & Future Improvements
 
-- Users are stored in memory (not MongoDB) — would add a User model for full persistence
-- No JWT token based auth — would replace session auth with JWT for better scalability
-- No pagination for tasks — would add pagination for large task lists
-- No task due dates — would add a deadline field and sorting by due date
-- No drag and drop for task reordering
 
 ---
 
